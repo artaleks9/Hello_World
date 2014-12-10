@@ -1,1 +1,1 @@
-{"description":"For add remote repository testing","builders":{"default":"maven"},"type":"maven","attributes":{"language":["java"]}}
+{"builders":{"default":"maven"},"description":"For add remote repository testing","type":"maven","attributes":{"language":["java"]}}
