@@ -15,9 +15,9 @@ public class TestHelloWorld {
             String s = null;
             try{
                 hw.print(s);
-                Assert.fail("You must enter a word!\nShould have thrown a WrongStringException");
+                Assert.fail("You must enter hello word!\nShould have thrown hello WrongStringException");
             }catch (WrongString wr){
-                Assert.assertEquals("You must enter a word!",wr.getMessage());
+                Assert.assertEquals("You must enter hello word!",wr.getMessage());
             }
         }
 }

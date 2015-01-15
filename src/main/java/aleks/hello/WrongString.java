@@ -6,7 +6,7 @@ package aleks.hello;
 public class WrongString extends Exception {
 
     public WrongString(){
-        super("You must enter a word!");
+        super("You must enter hello word!");
     }
 }
 
