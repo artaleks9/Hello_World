@@ -1,1 +1,1 @@
-{"builders":{"configs":{},"default":"maven"},"description":"For add remote repository testing","type":"maven","attributes":{"language":["java"]}}
+{"mixinTypes":["contribution"],"builders":{"configs":{}},"runners":{"configs":{}},"type":"blank","attributes":{"contribute_branch":["master"],"contribute_mode":["contribute"]}}
