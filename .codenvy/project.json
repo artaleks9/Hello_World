@@ -1,5 +1,27 @@
-<<<<<<< HEAD
-{"mixinTypes":["contribution"],"builders":{"configs":{},"default":"maven"},"runners":{"configs":{}},"description":"For add remote repository testing","type":"maven","attributes":{"contribute_branch":["master"],"languageVersion":["1.6"],"contribute_mode":["contribute"],"language":["java"]}}
-=======
-{"mixinTypes":["contribution"],"builders":{"configs":{}},"runners":{"configs":{}},"type":"blank","attributes":{"contribute_branch":["master"],"contribute_mode":["contribute"]}}
->>>>>>> 75e1b9b9a00c9f736056dc46db98f0ad20f8d894
+{
+    "mixinTypes": [
+        "contribution"
+    ],
+    "builders": {
+        "configs": {},
+        "default": "maven"
+    },
+    "runners": {
+        "configs": {}
+    },
+    "description": "For add remote repository testing",
+    "type": "maven",
+    "attributes": {
+        "contribute_branch": [
+            "master"
+        ],
+        "languageVersion": [
+            "1.6"
+        ],
+        "contribute_mode": [
+            "contribute"
+        ],
+        "language": [
+            "java"
+        ]
+    }
